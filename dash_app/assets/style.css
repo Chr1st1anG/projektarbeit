@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: var(--bs-success); }
+
+.scrollbar {
+scrollbar-color: var(--bs-success) #F5F5F5;
+}
+
+#query-variable-row{
+    margin-bottom: 20px;
+}
+
+#query-variable-dropdown{
+    margin-left: 10px;
+}
+
+#evidence-variable-container{
+    overflow: auto;
+    max-height: 75vh;
+}
+
+#evidence-variable-input-group{
+  margin-bottom: 10px;
+}
+
+#evidence-variable-label {
+      width: 50%;
+      white-space: normal !important;
+      height: auto !important;
+  }
+
+
+#bayes-net{
+    width: 100%;
+    height: 50vh;
+}
+
+#bayes-net-row{
+    max-height: 60vh;
+}
+
+#output-row{
+     overflow: auto;
+     max-height: 36vh;
+     margin-top: 10px;
+     margin-right: 3px;
+     margin-left: 3px;
+}
+
+.result{
+    font-size: 90%;
+}
+
+.cpt{
+    font-size: 80%;
+}
+
+
+
+
+
